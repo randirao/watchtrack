@@ -65,7 +65,6 @@ BigDataAnalysis/
 
 - `summary_report.ipynb`: 전체 분석 흐름 및 시각화 정리
 - `README.md`: 프로젝트 설명 및 실행 정보
-- (선택) `결과보고서.pdf`: `.ipynb` 파일을 PDF로 출력한 문서
 
 ---
 
