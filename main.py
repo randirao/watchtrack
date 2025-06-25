@@ -1,10 +1,11 @@
 from analysis.preprocess import *
 from analysis.visualize import *
 
-df = load_data('data/ednet/KT3kt3/123456.csv')
-df = filter_video_only(df)
-df = add_dropout_column(df)
+df = load_csv('data/sample.csv')
+df = filter_lectures(df)
+df = add_dropout_flag(df)
 df = add_time_features(df)
 
 plot_watch_ratio(df)
-plot_heatmap(df)
+plot_time_heatmap(df)
+plot_dropout_pie(df)
